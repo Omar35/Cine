@@ -33,6 +33,9 @@
                     <label>Contraseña</label>
                     <div class="row"><input type="text"></div>
                     <br>
+                    <label>Validar Contraseña</label>
+                    <div class="row"><input type="text"></div>
+                    <br>
                     <div class="row"></div>
 
 
