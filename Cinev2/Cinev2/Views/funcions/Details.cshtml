@@ -1,0 +1,66 @@
+﻿@model Cinev2.Models.funcion
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>funcion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fun_horario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fun_horario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.proyeccion.pro_horaInicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proyeccion.pro_horaInicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.proyeccion1.pro_horaInicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proyeccion1.pro_horaInicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sala.sal_idSala)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sala.sal_idSala)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sala1.sal_idSala)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sala1.sal_idSala)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sala2.sal_idSala)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sala2.sal_idSala)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.fun_idFuncion }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
